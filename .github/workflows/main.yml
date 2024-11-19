@@ -21,6 +21,6 @@ jobs:
         file: ./src/Dockerfile
         push: true
         tags: |
-          rafaelvol/aula-primeira-pipeline:v${{ github.run_number }}
-          rafaelvol/aula-primeira-pipeline:latest
+          rafaaelvol/aula-primeira-pipeline:v${{ github.run_number }}
+          rafaaelvol/aula-primeira-pipeline:latest
       
