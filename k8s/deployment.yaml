@@ -13,7 +13,7 @@ spec:
     spec:
       containers:
       - name: web
-        image: fabricioveronez/primeira-pipeline-cicd
+        image: rafaaelvol/aula-primeira-pipeline:v${{ github.run_number }}
         ports:
         - containerPort: 5000
 --- 
